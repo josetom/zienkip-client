@@ -1,0 +1,3 @@
+# git log | grep -i auth | sort | uniq | sort | sed -e 's,Author: ,,g'
+Jose Tom
+Ashwin

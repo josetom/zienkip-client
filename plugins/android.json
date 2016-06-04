@@ -1,0 +1,38 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.kips.kipenzi"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.kips.kipenzi"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.kips.kipenzi"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.kips.kipenzi"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.kips.kipenzi"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.kips.kipenzi"
+        },
+        "cordova-plugin-googleplus": {
+            "PACKAGE_NAME": "com.kips.kipenzi"
+        },
+        "phonegap-facebook-plugin": {
+            "APP_ID": "1751077018512546",
+            "APP_NAME": "kipenzi",
+            "PACKAGE_NAME": "com.kips.kipenzi"
+        }
+    },
+    "dependent_plugins": {}
+}

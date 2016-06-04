@@ -1,0 +1,21 @@
+<!-- partial-home.html -->
+<ion-view view-title="About" name="about-view">
+  <ion-nav-title>
+            
+             <input type="text" placeholder="Username"/>
+            </ion-nav-title>
+    <ion-content class="padding">
+
+        <div class="jumbotron text-center">
+            <h1>The About Page</h1>
+            <p>This page demonstrates <span class="text-danger">nested</span> views.</p>
+        </div>
+        <button class="button button-block button-calm" ng-click="clickLogin($event)">About1</button>
+        <button class="button button-block button-calm" ng-click="clickLogin($event)">About2</button>
+      <a class="button icon ion-home" ui-sref="tabs.home"> Home</a>
+
+        <div ui-view="about1"> </div>
+        <div ui-view="about2"> </div>
+
+    </ion-content>
+</ion-view>

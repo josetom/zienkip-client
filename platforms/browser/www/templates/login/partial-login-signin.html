@@ -1,0 +1,31 @@
+  <ion-view view-title="Login" name="login-view">
+  
+
+        <ion-content class="padding">
+            
+      <div class="list list-inset">
+          <label class="item item-input">
+              <input type="text" placeholder="Username" ng-model="username">
+          </label>
+          <label class="item item-input">
+              <input type="password" placeholder="Password" ng-model="password">
+          </label>
+      </div>
+      <button class="button button-block button-calm" ng-click="clickLogin($event)">Login</button>
+
+      <a class="facebook-sign-in button button-block" ng-click="facebookSignIn()">Login with Facebook</a>
+    
+<!--
+ <ion-item collection-repeat="x in myData">
+    {{x}}
+  </ion-item>
+      
+      <ul>
+  <li ng-repeat="x in myData">
+    {{ x.Name + ', ' + x.Country }}
+  </li>
+</ul>
+-->
+ 
+      </ion-content>
+</ion-view>

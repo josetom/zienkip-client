@@ -1,0 +1,43 @@
+<ion-view view-title="Home" name="home-view">
+  <ion-content class="padding">
+
+      <div name="calendar-div" class="calendar">
+
+          <div class="header"><h1 ng-bind="monthNyear"></h1>
+              <div class="right" ng-click="updateCalendar(month+1)"></div>
+              <div class="left" ng-click="updateCalendar(month-1)"></div>
+          </div>
+
+          <div class="month new">
+              <div class="week" id="week{{$index}}"ng-repeat="week in calendar">
+                  <div class="day {{date.class}}" ng-repeat="date in week" ng-click="onDateClick(this)">
+                      <div class="day-name" ng-bind="date.day"></div>
+                      <div class="day-number" ng-bind="date.date"></div>
+                      <div class="day-events">
+                          <span ng-repeat="event in date.events track by $index" class="{{event.color}}"></span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!--<div id="details-div" class="details in">-->
+              <!--<div class="arrow" style="left: 27px;"></div>-->
+              <!--<div class="events in new">-->
+                  <!--<div class="event">-->
+                      <!--<div class="event-category blue"></div>-->
+                      <!--<span>Game vs Houston</span>-->
+                  <!--</div>-->
+              <!--</div>-->
+          <!--</div>-->
+
+          <div class="legend">
+              <span class="entry orange">Work</span>
+              <span class="entry blue">Sports</span>
+              <span class="entry yellow">Kids</span>
+              <span class="entry green">Other</span>
+          </div>
+
+      </div>
+
+  </ion-content>
+</ion-view>

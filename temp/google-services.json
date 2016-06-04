@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "942004901815",
+    "project_id": "kipenzi-1a26a"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942004901815:android:e58f6044d183f4a8",
+        "android_client_info": {
+          "package_name": "com.kips.kipenzi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942004901815-eougas749abojcfgiiguo05ogu7c6o66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kips.kipenzi",
+            "certificate_hash": "00A43B501498C43F3235BE35FF3E981A19691FEF"
+          }
+        },
+        {
+          "client_id": "942004901815-ov0q41gqbpnrhkvebrbt2pdqonsjd4sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkJBCtN-OkVbpbMwAWwLMr0bL6WDKXeFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-73740872-3"
+          }
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942004901815-ov0q41gqbpnrhkvebrbt2pdqonsjd4sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "test_interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

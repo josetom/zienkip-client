@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+ .transparent {
+        background: transparent !important;
+    }
+
+    .image-modal {
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%
+    }
